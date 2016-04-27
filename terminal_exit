@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source /opt/ros/hydro/setup.bash
+
+killall -9 sound_edit
+
