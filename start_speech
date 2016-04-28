@@ -1,9 +1,0 @@
-#!/bin/bash
-
-source ~/catkin_ws/devel/setup.bash
-
-killall roslaunch
-killall start_sound
-killall roscore
-killall rosout
-roslaunch pocketsphinx talkback.launch
